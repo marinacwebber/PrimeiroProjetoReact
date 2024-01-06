@@ -2,6 +2,7 @@ import { Image, StyleSheet, Dimensions, Text, View } from 'react-native';
 import topo from '../../assets/topo.png';
 import logo from '../../assets/logo.png';
 
+
 const width = Dimensions.get('screen').width;
 
 export default function Cesta() {
@@ -42,10 +43,10 @@ const estilos = StyleSheet.create({
     paddingHorizontal: 26,
   },
   nome: {
-    fontSize: 26,
+    fontSize: 24,
     lineHeight: 42,
     color: "#464646",
-    fontWeight: "bold"
+    fontFamily: "MontserratBold",
   },
   fazenda: {
     flexDirection: "row",
@@ -59,6 +60,7 @@ const estilos = StyleSheet.create({
     fontSize: 16,
     lineHeight: 26,
     marginLeft: 12,
+    fontFamily: "MontserratRegular"
   },
   descricao: {
     color: "#A3A3A3",
