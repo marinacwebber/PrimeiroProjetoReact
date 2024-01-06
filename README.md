@@ -1,1 +1,3 @@
 # PrimeiroProjetoReact
+
+## O React Expo oferece uma vantagem significativa ao simplificar o desenvolvimento React Native. Ao optar pelo Expo CLI em vez do React Native CLI, evita-se a necessidade de configurar ambientes nativos complexos para Android e iOS. O Expo facilita o desenvolvimento ao instalar uma aplicação intermediária no dispositivo, eliminando a configuração manual. Além disso, o Expo permite atualizações OTA, simplificando as atualizações na loja sem uploads de novas versões. No entanto, há algumas limitações, como restrições em recursos nativos e uma aplicação um pouco maior devido ao código nativo já estar presente no aplicativo Expo base.
